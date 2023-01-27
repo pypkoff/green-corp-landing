@@ -55,11 +55,19 @@ header {
   }
 
   .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 115px;
     padding-bottom: 115px;
+  }
+
+  .orb-canvas {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    height: 100%;
   }
 
   .about h1 {
